@@ -147,6 +147,13 @@ html{
     margin: auto;
     color: #666;
 }
+.sobremi .contenido-seccion a{
+    color: #949253;
+    font-weight: bold;
+    margin-top: 15px;
+    max-width: 900px;
+    text-decoration: none;
+}
 .sobremi .contenido-seccion .fila{
     display: flex;
     margin-top: 30px;
