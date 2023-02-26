@@ -1,5 +1,4 @@
-/* importamos las fuentes */
-/* @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap'); */
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 *{
@@ -11,35 +10,35 @@ html{
     scroll-behavior: smooth;
 }
 
-/* SECCION INICIO */
-.inicio{
+/* SECCION start */
+.start{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
     url("img/fondo.jpg");
     background-size: cover;
     background-position: center center;
     color: #fff;
 }
-.inicio .contenido-seccion{
+.start .inner_section{
     max-width: auto;
     margin: auto;
     text-align: center;
     padding: 0 10px;
 }
-.inicio .contenido-seccion header{
+.start .inner_section header{
     padding: 30px;
 }
 /* menu lateral */
-.inicio .contenido-seccion header nav{
+.start .inner_section header nav{
     position: fixed;
     margin-left: 60px;
     background-color: #949253;
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: left;
     z-index: 99;
     display: none;
 }
-.inicio .contenido-seccion header nav a{
+.start .inner_section header nav a{
     display: block;
     color: #fff;
     text-decoration: none;
@@ -47,70 +46,70 @@ html{
     font-weight: bold;
 }
 /* ****** */
-.inicio .contenido-seccion header .logo{
+.start .inner_section header .logo{
     font-weight: bold;
     font-size: 2.5rem;
     font-family: "Roboto";
     text-shadow: 0 0 35px #fff;
 }
-.inicio .contenido-seccion header .logo .color{
+.start .inner_section header .logo .color{
     color: #949253;
     font-family: "Roboto";
 }
-.inicio .contenido-seccion header .nav-bar{
+.start .inner_section header .pop-bar{
     position: fixed;
     background-color: #949253;
     font-size: 20px;
     width: 50px;
     height: 50px;
-    border-radius: 0%;
+    border-radius: 10%;
     line-height: 50px;
     cursor: pointer;
     transition: .3s;
 }
-.inicio .contenido-seccion header .nav-bar:hover{
+.start .inner_section header .pop-bar:hover{
     box-shadow: 0 0 35px #fff;
 }
-.inicio .contenido-seccion .info{
+.start .inner_section .info{
     padding-bottom: 130px;
 }
-.inicio .contenido-seccion .info h1{
+.start .inner_section .info h1{
     font-size: 3rem;
     letter-spacing: 5px;
 }
-.inicio .contenido-seccion .info h2{
+.start .inner_section .info h2{
     font-weight: normal;
     font-size: 20px;
     margin-top: -10px;
     letter-spacing: 2px;
 }
-.inicio .contenido-seccion .info .redes{
+.start .inner_section .info .media_links{
     margin: 20px 0;
 }
-.inicio .contenido-seccion .info .redes a{
+.start .inner_section .info .media_links a{
     display: inline-block;
     text-decoration: none;
     background-color: #000;
     color: #949253;
     border: 1px solid #949253;
-    border-radius: 0%;
+    border-radius: 10%;
     width: 40px;
     height: 40px;
     line-height: 40px;
     margin: 0 5px;
     transition: .3s;
 }
-.inicio .contenido-seccion .info .redes a:hover{
+.start .inner_section .info .media_links a:hover{
     color: #fff;
     background-color: #949253;
     box-shadow: 0 0 20px #fff;
 }
-.inicio .contenido-seccion .foto{
+.start .inner_section .foto{
     position: relative;
 }
-.inicio .contenido-seccion .foto img{
+.start .inner_section .foto img{
     max-width: 200px;
-    border-radius: 0%;
+    border-radius: 10%;
     border: 5px solid #949253;
     position: absolute;
     left: 50%;
@@ -123,162 +122,144 @@ html{
     font-size: 1.5rem;
 }
 /* SECCION SOBRE MI */
-.sobremi{
+.aboutme{
     background-color: #e6e6e6;
     padding: 140px 0 100px 0;
     text-align: center;
 }
-.sobremi .contenido-seccion{
+.aboutme .inner_section{
     max-width: 1000px;
     margin: auto;
     padding: 0 10px;
 }
-.sobremi .contenido-seccion h3{
+.aboutme .inner_section h3{
     text-transform: uppercase;
     font-size: 30px;
 }
-.sobremi .contenido-seccion .especial{
+.aboutme .inner_section .especial{
     color: #949253;
     font-weight: bold;
     margin-top: 15px;
 }
-.sobremi .contenido-seccion p{
+.aboutme .inner_section p{
     max-width: 900px;
     margin: auto;
     color: #666;
 }
-.sobremi .contenido-seccion a{
+.aboutme .inner_section a{
     color: #949253;
     font-weight: bold;
     margin-top: 15px;
     max-width: 900px;
     text-decoration: none;
 }
-.sobremi .contenido-seccion .fila{
+.aboutme .inner_section .fila{
     display: flex;
     margin-top: 30px;
     justify-content: space-between;
 }
-.sobremi .contenido-seccion .fila .col{
+.aboutme .inner_section .fila .col{
     width: 30%;
 }
-.sobremi .contenido-seccion .fila .col i{
+.aboutme .inner_section .fila .col i{
     color: #949253;
     display: inline-block;
     width: 40px;
     height: 40px;
     border: 2px solid #949253;
     line-height: 40px;
-    border-radius: 0%;
+    border-radius: 10%;
 }
-.sobremi .contenido-seccion .fila .col span{
+.aboutme .inner_section .fila .col span{
     display: block;
     font-weight: bold;
     margin: 8px 0;
 }
-/* SECCION HABILIDADES */
-.habilidades{
+/* SECCION ICAPS */
+.skills{
     padding: 80px 0 100px 0;
     text-align: center;
-    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
-    url("img/habilidades.svg");
+    background-image: url("img/habilidades.svg"), linear-gradient(#949253, white);
     background-size: auto;
     background-attachment: fixed;
     background-position: center center;
     color: #fff;
 }
-.habilidades .contenido-seccion{
+.skills .inner_section{
     max-width: 1000px;
     margin: auto;
     padding: 0 10px;
 }
-.habilidades .contenido-seccion h3{
+.skills .inner_section h3{
     text-transform: uppercase;
     font-size: 30px;
 }
-.habilidades .contenido-seccion .fila{
+.skills .inner_section .fila{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
-.habilidades .contenido-seccion .fila .col{
+.skills .inner_section .fila .col{
     width: 47%;
     text-align: left;
 }
-.habilidades .contenido-seccion .fila .col .cont-barra{
-    display: flex;
-    align-items: center;
-}
-.habilidades .contenido-seccion .barra{
-    display: flex;
-    border: 1px solid #949253;
-    padding: 2px;
-    border-radius: 3px;
-    margin-right: 10px;
-}
-.habilidades .contenido-seccion .barra .e{
-    background-color: #363636;
-    width: 20px;
-    height: 30px;
-    margin-right: 2px;
-}
+
 /* SECCION RESUMEN */
 .resumen{
     background-color: #e6e6e6;
     padding: 140px 0 100px 0;
     text-align: center;
 }
-.resumen .contenido-seccion{
+.resumen .inner_section{
     max-width: 1000px;
     margin: auto;
     padding: 0 10px;
 }
-.resumen .contenido-seccion h3{
+.resumen .inner_section h3{
     text-transform: uppercase;
     font-size: 30px;
 }
-.resumen .contenido-seccion .info{
+.resumen .inner_section .info{
     text-align: left;
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
-.resumen .contenido-seccion .info .col{
+.resumen .inner_section .info .col{
     width: 45%;
 }
-.resumen .contenido-seccion .info .col .titulo{
+.resumen .inner_section .info .col .titulo{
     display: inline-block;
     color: #949253;
     font-weight: bold;
     border: 2px solid #949253;
     padding: 10px;
-
 }
-.resumen .contenido-seccion .info .col table{
+.resumen .inner_section .info .col table{
     margin-top: 30px;
     border-collapse: collapse;
 }
-.resumen .contenido-seccion .info .col table .datos{
+.resumen .inner_section .info .col table .datos{
     width: 40%;
     border-bottom: 1px solid #bab9b9;
 }
-.resumen .contenido-seccion .info .col table h4{
+.resumen .inner_section .info .col table h4{
     margin-top: 10px;
 }
-.resumen .contenido-seccion .info .col table h3{
+.resumen .inner_section .info .col table h3{
     font-size: 20px;
     margin-bottom: 5px;
 }
-.resumen .contenido-seccion .info .col table p{
+.resumen .inner_section .info .col table p{
     font-size: 14px;
 }
-.resumen .contenido-seccion .info .col table .promedio{
+.resumen .inner_section .info .col table .promedio{
     display: block;
     color: #949253;
     margin-top: 10px;
     font-weight: bold;
 }
-.resumen .contenido-seccion .info .col table .descripcion{
+.resumen .inner_section .info .col table .descripcion{
     border-left: 1px solid #bab9b9;
     padding-left: 20px;
 }
@@ -289,61 +270,61 @@ html{
     color: #e6e6e6;
     text-align: center;
 }
-.contacto .contenido-seccion{
+.contacto .inner_section{
     max-width: 1000px;
     margin: auto;
     padding: 0 10px;
 }
-.contacto .contenido-seccion h3{
+.contacto .inner_section h3{
     text-transform: uppercase;
     font-size: 30px;
 }
-.contacto .contenido-seccion .fila{
+.contacto .inner_section .fila{
     display: flex;
     justify-content: space-around;
 }
-.contacto .contenido-seccion .fila .col{
+.contacto .inner_section .fila .col{
     margin-top: 50px;
 }
-.contacto .contenido-seccion .fila .col h2{
+.contacto .inner_section .fila .col h2{
     color: #949253;
 }
-/* SECCION RESPONSIVE */
+/* SECCION DEVICE FRIENDLY / RESPONSIVE */
 @media screen and (max-width:800px){
-    .habilidades .contenido-seccion .fila{
+    .skills .inner_section .fila{
         display: block;
     }
-    .habilidades .contenido-seccion .fila .col{
+    .skills .inner_section .fila .col{
         width: 100%;
         text-align: center;
     }
-    .habilidades .contenido-seccion .fila .col .cont-barra{
+    .skills .inner_section .fila .col .cont-barra{
         justify-content: center;
     }
-    .sobremi .contenido-seccion .fila{
+    .aboutme .inner_section .fila{
         display: block;
     }
-    .sobremi .contenido-seccion .fila .col{
+    .aboutme .inner_section .fila .col{
         width: 80%;
         margin: auto;
         margin-top: 20px;
     }
-    .resumen .contenido-seccion .info{
+    .resumen .inner_section .info{
         display: block;
     }
-    .resumen .contenido-seccion .info .col{
+    .resumen .inner_section .info .col{
         width: 90%;
         margin: auto;
     }
-    .resumen .contenido-seccion .info .col .titulo{
+    .resumen .inner_section .info .col .titulo{
         display: block;
         text-align: center;
     }
-    .resumen .contenido-seccion .info .col table{
+    .resumen .inner_section .info .col table{
         margin-top: 10px;
         margin-bottom: 30px;
     }
-    .contacto .contenido-seccion .fila{
+    .contacto .inner_section .fila{
         display: block;
     }
 }
