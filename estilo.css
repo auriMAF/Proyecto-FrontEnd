@@ -197,7 +197,7 @@ html{
     background-image: url("img/skills.jpg");
     background-attachment: fixed;
     background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    /* background-repeat: no-repeat;  Do not repeat the image */
     background-size: contain;
     background-color: black;
     color: #fff;
