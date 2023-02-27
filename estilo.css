@@ -35,10 +35,10 @@ html{
 /* menu lateral */
 .start .inner_section header nav{
     position: fixed;
-    margin-left: 40px;
+    margin-left: 35px;
     background-color: #949253;
-    padding: 15px;
-    border-radius: 10px;
+    padding: 3px;
+    border-radius: 3px;
     text-align: left;
     z-index: 99;
     display: none;
@@ -47,10 +47,10 @@ html{
     display: block;
     color: #fff;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin: 0px;
     font-weight: bold;
 }
-/* ****** */
+
 .start .inner_section header .logo{
     font-weight: bold;
     font-size: 2.5rem;
@@ -65,12 +65,12 @@ html{
     position: fixed;
     background-color: #949253;
     font-size: 20px;
-    width: 30px;
-    height: 30px;
-    border-radius: 10%;
+    width: 29px;
+    height: 29px;
+    border-radius: 3px;
     line-height: 30px;
     cursor: pointer;
-    transition: .3s;
+    transition: .53s;
 }
 .start .inner_section header .pop-bar:hover{
     box-shadow: 0 0 35px #fff;

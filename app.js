@@ -1,8 +1,8 @@
-//Menu lateral
+//Pop up menu
 var menu_visible = false;
 let menu = document.getElementById("pop");
 function onoffList(){
-    if(menu_visible==false){//si esta oculto
+    if(menu_visible==false){ //si esta oculto
         menu.style.display = "block";
         menu_visible = true;
     }
