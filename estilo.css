@@ -22,11 +22,16 @@ html{
     max-width: auto;
     margin: auto;
     text-align: center;
-    padding: 0 10px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
 }
+
 .start .inner_section header{
     padding: 30px;
 }
+
 /* menu lateral */
 .start .inner_section header nav{
     position: fixed;
@@ -75,12 +80,12 @@ html{
 }
 .start .inner_section .info h1{
     font-size: 3rem;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
 }
 .start .inner_section .info h2{
     font-weight: normal;
     font-size: 20px;
-    margin-top: -10px;
+    margin-top: 10px;
     letter-spacing: 2px;
 }
 .start .inner_section .info .media_links{
@@ -179,12 +184,14 @@ html{
 .skills{
     padding: 80px 0 100px 0;
     text-align: center;
-    background-image: url("img/habilidades.svg"), linear-gradient(#949253, white);
-    background-size: auto;
+    background-image: url("img/skills.jpg");
     background-attachment: fixed;
-    background-position: center center;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain;
     color: #fff;
 }
+
 .skills .inner_section{
     max-width: 1000px;
     margin: auto;
